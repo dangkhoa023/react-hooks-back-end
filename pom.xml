@@ -46,6 +46,39 @@
 			<artifactId>velocity</artifactId>
 			<version>1.7</version>
 		</dependency>
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>3.1.1</version>
+		</dependency>
+
+		<!-- Dependency cho MapStruct -->
+		<dependency>
+			<groupId>org.mapstruct</groupId>
+			<artifactId>mapstruct</artifactId>
+			<version>1.4.2.Final</version> <!-- Điều chỉnh phiên bản tương ứng -->
+		</dependency>
+
+		<!-- Plugin để tích hợp MapStruct vào quá trình biên dịch -->
+		<dependency>
+			<groupId>org.mapstruct</groupId>
+			<artifactId>mapstruct-processor</artifactId>
+			<version>1.4.2.Final</version> <!-- Điều chỉnh phiên bản tương ứng -->
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-boot-starter</artifactId>
+			<version>3.0.0</version> <!-- Hoặc phiên bản mới nhất hiện tại -->
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>

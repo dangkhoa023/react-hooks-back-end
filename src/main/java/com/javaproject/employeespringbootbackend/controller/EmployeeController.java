@@ -2,10 +2,10 @@ package com.javaproject.employeespringbootbackend.controller;
 
 import com.javaproject.employeespringbootbackend.model.Employee;
 import com.javaproject.employeespringbootbackend.repository.EmployeeRepository;
-import org.apache.coyote.Response;
+
 import org.apache.velocity.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
